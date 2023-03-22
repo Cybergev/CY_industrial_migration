@@ -1,0 +1,4 @@
+industrial_migration_decisions = {
+	icon = generic_industry
+	picture = GFX_decision_cat_generic_mefo_bills
+}

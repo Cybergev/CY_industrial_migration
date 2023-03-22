@@ -1,0 +1,18 @@
+spriteType = {
+	SpriteType = {
+		name = "GFX_industrial_complex_bui_equipment_medium"
+		texturefile = "gfx/interface/technologies/industrial_complex_bui_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_arms_factory_bui_equipment_medium"
+		texturefile = "gfx/interface/technologies/arms_factory_bui_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_dockyard_bui_equipment_medium"
+		texturefile = "gfx/interface/technologies/dockyard_bui_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_synthetic_refinery_bui_equipment_medium"
+		texturefile = "gfx/interface/technologies/synthetic_refinery_bui_equipment.dds"
+	}
+}
