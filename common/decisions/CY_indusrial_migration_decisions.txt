@@ -207,11 +207,6 @@ industrial_migration_decisions = {
 						}
 					}
 				}
-				set_temp_variable = { ROOT.Emigrate_vaule = 0 }
-				add_to_temp_variable = { ROOt.Emigrate_vaule = FROM.building_level@industrial_complex }
-				set_temp_variable = { ROOT.Emigrate_cost = Emigrate_vaule }
-				multiply_temp_variable = { ROOT.Emigrate_cost = 10 }
-				set_temp_variable = { ROOT.Emigrate_days = Emigrate_cost }
 			}
 		}
 
@@ -243,12 +238,12 @@ industrial_migration_decisions = {
 			}
 		}
 		
-		days_remove = Emigrate_days
-		cost = Emigrate_cost
+		days_remove = 10
+		cost = 10
 		
 		remove_effect = {  
 			FROM = {
-				set_temp_variable = { ROOT.Emigrate_civ_industry = FROM.building_level@industrial_complex }
+				set_temp_variable = { ROOT.Emigrate_civ_industry = 1 }
 				set_temp_variable = { ROOT.Emigrate_civ_stability = 0 }
 				set_temp_variable = { ROOT.Emigrate_civ_resistance = 0 }
 				set_temp_variable = { ROOT.Emigrate_civ_compliance = 0 }
@@ -346,11 +341,6 @@ industrial_migration_decisions = {
 						}
 					}
 				}
-				set_temp_variable = { ROOT.Emigrate_vaule = 0 }
-				add_to_temp_variable = { ROOt.Emigrate_vaule = FROM.building_level@arms_factory }
-				set_temp_variable = { ROOT.Emigrate_cost = Emigrate_vaule }
-				multiply_temp_variable = { ROOT.Emigrate_cost = 10 }
-				set_temp_variable = { ROOT.Emigrate_days = Emigrate_cost }
 			}
 		}
 
@@ -382,12 +372,12 @@ industrial_migration_decisions = {
 			}
 		}
 		
-		days_remove = Emigrate_days
-		cost = Emigrate_cost
+		days_remove = 10
+		cost = 10
 		
 		remove_effect = {  
 			FROM = {
-				set_temp_variable = { ROOT.Emigrate_mil_industry = FROM.building_level@arms_factory }
+				set_temp_variable = { ROOT.Emigrate_mil_industry = 1 }
 				set_temp_variable = { ROOT.Emigrate_mil_stability = 0 }
 				set_temp_variable = { ROOT.Emigrate_mil_resistance = 0 }
 				set_temp_variable = { ROOT.Emigrate_mil_compliance = 0 }
@@ -485,11 +475,6 @@ industrial_migration_decisions = {
 						}
 					}
 				}
-				set_temp_variable = { ROOT.Emigrate_vaule = 0 }
-				add_to_temp_variable = { ROOt.Emigrate_vaule = FROM.building_level@dockyard }
-				set_temp_variable = { ROOT.Emigrate_cost = Emigrate_vaule }
-				multiply_temp_variable = { ROOT.Emigrate_cost = 10 }
-				set_temp_variable = { ROOT.Emigrate_days = Emigrate_cost }
 			}
 		}
 
@@ -521,12 +506,12 @@ industrial_migration_decisions = {
 			}
 		}
 		
-		days_remove = Emigrate_days
-		cost = Emigrate_cost
+		days_remove = 10
+		cost = 10
 		
 		remove_effect = {  
 			FROM = {
-				set_temp_variable = { ROOT.Emigrate_doc_industry = FROM.building_level@dockyard }
+				set_temp_variable = { ROOT.Emigrate_doc_industry = 1 }
 				set_temp_variable = { ROOT.Emigrate_doc_stability = 0 }
 				set_temp_variable = { ROOT.Emigrate_doc_resistance = 0 }
 				set_temp_variable = { ROOT.Emigrate_doc_compliance = 0 }
@@ -624,11 +609,6 @@ industrial_migration_decisions = {
 						}
 					}
 				}
-				set_temp_variable = { ROOT.Emigrate_vaule = 0 }
-				add_to_temp_variable = { ROOt.Emigrate_vaule = FROM.building_level@synthetic_refinery }
-				set_temp_variable = { ROOT.Emigrate_cost = Emigrate_vaule }
-				multiply_temp_variable = { ROOT.Emigrate_cost = 10 }
-				set_temp_variable = { ROOT.Emigrate_days = Emigrate_cost }
 			}
 		}
 
@@ -660,12 +640,12 @@ industrial_migration_decisions = {
 			}
 		}
 		
-		days_remove = Emigrate_days
-		cost = Emigrate_cost
+		days_remove = 10
+		cost = 10
 		
 		remove_effect = {  
 			FROM = {
-				set_temp_variable = { ROOT.Emigrate_ref_industry = FROM.building_level@synthetic_refinery }
+				set_temp_variable = { ROOT.Emigrate_ref_industry = 1 }
 				set_temp_variable = { ROOT.Emigrate_ref_stability = 0 }
 				set_temp_variable = { ROOT.Emigrate_ref_resistance = 0 }
 				set_temp_variable = { ROOT.Emigrate_ref_compliance = 0 }

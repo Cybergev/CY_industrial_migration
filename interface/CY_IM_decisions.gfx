@@ -1,0 +1,41 @@
+spriteType = {
+	spriteType = {
+		name = "GFX_decision_Emigrate_civ_industry"
+		texturefile = "gfx/interface/decisions/decision_Emigrate_civ_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_Emigrate_mil_industry"
+		texturefile = "gfx/interface/decisions/decision_Emigrate_mil_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_Emigrate_doc_industry"
+		texturefile = "gfx/interface/decisions/decision_Emigrate_doc_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_Emigrate_ref_industry"
+		texturefile = "gfx/interface/decisions/decision_Emigrate_ref_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_Immigrate_civ_industry"
+		texturefile = "gfx/interface/decisions/decision_Immigrate_civ_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_Immigrate_mil_industry"
+		texturefile = "gfx/interface/decisions/decision_Immigrate_mil_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_Immigrate_doc_industry"
+		texturefile = "gfx/interface/decisions/decision_Immigrate_doc_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_Immigrate_ref_industry"
+		texturefile = "gfx/interface/decisions/decision_Immigrate_ref_industry.dds"
+	}
+}
