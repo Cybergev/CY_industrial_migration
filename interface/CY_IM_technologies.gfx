@@ -1,6 +1,26 @@
 spriteType = {
 
 	SpriteType = {
+		name = "GFX_archetype_industrial_complex_bui_archetype_medium"
+		texturefile = "gfx/interface/archetypes/archetype_industrial_complex_bui_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_arms_factory_bui_archetype_medium"
+		texturefile = "gfx/interface/archetypes/archetype_arms_factory_bui_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_dockyard_bui_archetype_medium"
+		texturefile = "gfx/interface/archetypes/archetype_dockyard_bui_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_synthetic_refinery_bui_archetype_medium"
+		texturefile = "gfx/interface/archetypes/archetype_synthetic_refinery_bui_equipment.dds"
+	}		
+	
+	SpriteType = {
 		name = "GFX_industrial_complex_bui_equipment_medium"
 		texturefile = "gfx/interface/technologies/industrial_complex_bui_equipment.dds"
 	}

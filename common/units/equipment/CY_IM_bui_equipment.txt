@@ -1,6 +1,6 @@
 equipments = {
 
-	industrial_complex_bui_equipment_arc = {
+	industrial_complex_bui_archetype = {
 		year = 1900
 
 		is_archetype = yes
@@ -13,7 +13,7 @@ equipments = {
 			infantry
 		}
 
-		picture = industrial_complex_bui_equipment_medium
+		picture = GFX_archetype_industrial_complex_bui_archetype_medium
 		group_by = archetype
 		sprite = support
 
@@ -30,12 +30,11 @@ equipments = {
 		is_buildable = no
 		can_license = no
 		active = yes
-		archetype = industrial_complex_bui_equipment_arc
+		archetype = industrial_complex_bui_archetype
 		priority = 05
-		visual_level = 0
 	}
 
-	arms_factory_bui_equipment_arc = {
+	arms_factory_bui_archetype = {
 		year = 1900
 
 		is_archetype = yes
@@ -48,7 +47,7 @@ equipments = {
 			infantry
 		}
 
-		picture = arms_factory_bui_equipment_medium
+		picture = GFX_archetype_arms_factory_bui_archetype_medium
 		group_by = archetype
 		sprite = support
 
@@ -65,12 +64,11 @@ equipments = {
 		is_buildable = no
 		can_license = no
 		active = yes
-		archetype = arms_factory_bui_equipment_arc
+		archetype = arms_factory_bui_archetype
 		priority = 05
-		visual_level = 0
 	}
 
-	dockyard_bui_equipment_arc = {
+	dockyard_bui_archetype = {
 		year = 1900
 
 		is_archetype = yes
@@ -83,7 +81,7 @@ equipments = {
 			infantry
 		}
 		
-		picture = dockyard_bui_equipment_medium
+		picture = GFX_archetype_dockyard_bui_archetype_medium
 		group_by = archetype
 		sprite = support
 
@@ -100,12 +98,11 @@ equipments = {
 		is_buildable = no
 		can_license = no
 		active = yes
-		archetype = dockyard_bui_equipment_arc
+		archetype = dockyard_bui_archetype
 		priority = 05
-		visual_level = 0
 	}
 
-	synthetic_refinery_bui_equipment_arc = {
+	synthetic_refinery_bui_archetype = {
 		year = 1900
 
 		is_archetype = yes
@@ -118,7 +115,7 @@ equipments = {
 			infantry
 		}
 		
-		picture = synthetic_refinery_bui_equipment_medium
+		picture = GFX_archetype_synthetic_refinery_bui_archetype_medium
 		group_by = archetype
 		sprite = support
 
@@ -135,9 +132,8 @@ equipments = {
 		is_buildable = no
 		can_license = no
 		active = yes
-		archetype = synthetic_refinery_bui_equipment_arc
+		archetype = synthetic_refinery_bui_archetype
 		priority = 05
-		visual_level = 0
 	}
 
 }
